@@ -2,7 +2,7 @@ const downloadBtn = document.getElementById("download-btn");
 
 downloadBtn.addEventListener("click", function() {
   const fileName = "resume.pdf"; // file name
-  const fileSource = "./images/resume.pdf"; // file source URL
+  const fileSource = "./resume.pdf"; // file source URL
 
   // Create a link element
   const link = document.createElement("a");
