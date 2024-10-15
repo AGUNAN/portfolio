@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+:root{
+  --col: #2d2b77;
+  --bass:#5551e3;
+
+}
+
+
+nav{
+    background-color:var(--bass);
+}
+h3{
+    padding: 14px 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  .one{
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: var(--col);
+    border-radius:2rem ;
+  }
+
+  .hero{
+    
+    color:whitesmoke;
+    width:50%;
+    height:50%;
+    float: left;
+    padding: 30px;
+  }
+  span{
+    color: black;
+  }
+  .heroimg img{
+   width: 500px;
+   height: 500px;
+   padding: 10px;
+  }
+  .heroimg{
+    display: flex;
+    float: right;
+  }
+  .he{
+    display: flex;
+    background-color:var(--bass);
+    justify-content: center;
+  }
+  .aboutimg img{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+  }
+  .aboutimg{
+    display: flex;
+    float:left;
+    
+  }
+  
+  .about{
+    background-image: linear-gradient(to right, var(--bass) ,var(--col));
+    display: flex;
+    color:whitesmoke;
+    padding: 30px;
+    
+  }
+
+  .abouttext{
+    padding-top: 60px;
+  }
+  .abouttext h3{
+    color: whitesmoke;
+    font-size:50px ;
+    padding-bottom: 20px;
+    background-color: none;
+  }
+  .abouttext li{
+    font-size: 30px;
+    list-style-type: none;
+    padding-bottom: 20px;
+  }
+
+  .fooder{
+    background-image: linear-gradient(to bottom right,var(--bass), var(--col));
+    text-align: center;
+    color: antiquewhite;
+   
+  }
+
+  .Contacts{
+    background-image: linear-gradient(45deg,var(--bass), var(--col));
+    text-align: center;
+    color: whitesmoke;
+    padding: 50px;
+
+  }
+
+  .Contacts h3{
+    padding:30px ;
+    font-size: 50px;
+  }
+
+  .Contacts h5{
+    padding:30px ;
+    font-size: 30px;
+  }
+
+  .Projects div img{
+    background-color: #ffffff;
+    width:300px;
+    height:300px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+
+  .Projects div img:hover{
+    transform: scale(1.1);
+  }
+
+  h2{
+    background-color:var(--col);
+    padding:30px ;
+    color: whitesmoke;
+    font-size: 50px;
+  }
+
+  .Projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+
+  }
+
+  .Resume div img{
+    
+    width:600px;
+    height:600px;
+    margin: 0;
+
+  }
+
+  .Resume{
+    display:flex;
+    background-image: linear-gradient(to right,var(--bass) ,var(--col));
+    
+  }
+  .rtext{
+    justify-content: center;
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 100px;
+  }
+
+  .rtext h1{
+    background-color:var(--bass);
+    padding: 20px;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    color: whitesmoke;
+
+
+  }
+.rtext h1:hover{
+  background-color: var(--bass);
+  transform: scale(1.1);
+}
+
+
+ 
+ 
+  
+  
