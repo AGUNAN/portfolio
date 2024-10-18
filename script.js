@@ -1,8 +1,8 @@
 const downloadBtn = document.getElementById("download-btn");
 
 downloadBtn.addEventListener("click", function() {
-  const fileName = "resume.pdf"; // file name
-  const fileSource = "./resume.pdf"; // file source URL
+  const fileName = "Resume.pdf"; // file name
+  const fileSource = "./Resume.pdf"; // file source URL
 
   // Create a link element
   const link = document.createElement("a");
